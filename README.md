@@ -1,6 +1,7 @@
 # BibleApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+Currently a WIP. Trying to create a social media for sharing verses, liking posts, and having meaningful discussions about scripture.
 
 ## Development server
 
