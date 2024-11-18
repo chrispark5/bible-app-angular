@@ -1,0 +1,10 @@
+<div class="book-container">
+  <div
+    class="card"
+    *ngFor="let chapter of bookDetails"
+    [id]="chapter.id"
+    (click)="navToBookVerses(chapter.bookId, chapter.id)"
+  >
+    <h3>{{ chapter.number }}</h3>
+  </div>
+</div>

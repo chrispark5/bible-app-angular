@@ -1,0 +1,11 @@
+<div class="book-container">
+  <div
+    class="card"
+    *ngFor="let book of bibleBooks"
+    [id]="book.bibleId"
+    (click)="navToBookDetail(book.id)"
+  >
+    <h3>{{ book.name }}</h3>
+    <p>{{ book.nameLong }}</p>
+  </div>
+</div>
